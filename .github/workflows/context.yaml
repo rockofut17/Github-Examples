@@ -10,3 +10,8 @@ jobs:
           MY_ACTION: ${{github.action}}
         run: |
           echo "Hello! ${MY_ACTION}"
+      - name: "My step 2"
+        env:
+          MY_REPOSITORY: ${{github.repository}}
+        run: |
+          echo "Hello! ${MY_REPOSITORY}"
