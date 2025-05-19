@@ -1,4 +1,5 @@
 name: "workflow commands"
+on: ['push']
 
 jobs:
   my-job:
